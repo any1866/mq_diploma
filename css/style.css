@@ -133,21 +133,31 @@ h2 {
 
 .sub_title {
     margin: 0;
+    padding-bottom:10px;
 }
 
 .numero {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    color: #000000;
+    font-size: 36px;
+    
+    margin-top: 2px;
+    margin-right: 8px;
 }
 
 .numero:after {
-    position: absolute;
     content: "";
-    width: 100%;
-    background: #5e42b0;
-    left: 0;
-    bottom: 0;
+
+  position: absolute;
+  background-color: #5e42b0;
+
+  width: 36px;
+  height: 4px;
+
+  top: 0px;
+  left: 0px;
+ 
+  border-radius: 2px;
 }
 
 .numero div {
@@ -225,7 +235,9 @@ h3 {
 
 .why_d_text p {
     margin: 0;
+    padding-bottom: 10px;
     font-size: 1.6em;
+    
 }
 
 .footer_container {
@@ -357,7 +369,6 @@ h3 {
     .text_container {
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 20px
     }
 
     .title_block {
@@ -374,19 +385,35 @@ h3 {
         font-size: 15px;
         line-height: 1.24;
         letter-spacing: 0.05em;
+        padding-bottom:10px;
     }
 
     .numero {
-        padding-top: 2px;
-        height: 2em;
-         font-size: 14px;
+        position:relative;
+        color: #000000;
+        font-size: 23px;
+      
+        margin-top: 0;
+        margin-right: 16px;
     }
 
     .numero:after {
+        content: "";
+
+        position: absolute;
+        background-color: #5e42b0;
+      
+        width: 23px;
         height: 4px;
+      
+        top: 23px;
+        left: 0px;
+       
         border-radius: 2px;
+  
     }
 
+    
 
     .players {
         padding-top: 18px;
@@ -451,6 +478,7 @@ h3 {
         font-size: 16px;
         letter-spacing: 0.05em;
         line-height: 1.25;
+        padding-bottom: 10px;
     }
 
     .footer_container {
@@ -509,6 +537,9 @@ h3 {
 
 
 
+
+
+
 @media (min-width: 641px) and (max-width: 960px) {
 
     .header_container {
@@ -531,7 +562,7 @@ h3 {
         letter-spacing: 0.06em;
         margin-left: 50px;
         margin-bottom: 298px;
-        line-height: 0.8;
+        line-height: 1.2;
     }
 
     .slogan span:nth-child(2) {
@@ -612,21 +643,35 @@ h3 {
         font-size: 16px;
         line-height: 1.8;
         letter-spacing: 0.05em;
+        padding-bottom:10px;
+        font-size: 18px;
     }
 
     .numero {
-        padding-top: 3px;
-        height: 28px;
+        position: relative;
+        color: #000000;
+        font-size: 32px;
+        
+        margin-top: 2px;
+        margin-right: 8px;
     }
 
     .numero:after {
-        height: 5px;
+        content: "";
+
+  position: absolute;
+  background-color: #5e42b0;
+
+  width: 32px;
+  height: 6px;
+
+  top: 36px;
+  left: 0px;
+ 
+  border-radius: 2px;height: 5px;
         border-radius: 2px;
     }
 
-    .numero div {
-        font-size: 18px;
-    }
 
     .players {
         padding-top: 73px;
@@ -701,6 +746,7 @@ h3 {
     .why_d_text p {
             font-size: 24px;
             letter-spacing: 0.05em;
+            padding-bottom: 10px;
     }
 
     .footer_container {
@@ -776,7 +822,7 @@ h3 {
         font-size: 90px;
         margin-top: 0;
         margin-bottom: 226px;
-        line-height: 0.7;
+        line-height: 1.2;
         letter-spacing: 0.05em;
     }
 
@@ -864,16 +910,34 @@ h3 {
     .sub_title {
         font-size: 20px;
         line-height: 1.4;
+        padding-bottom:10px;
     }
 
     .numero {
-        padding-top: 6px;
-        height: 2.8em;
+
+        position: relative;
+  color: #000000;
+  font-size: 36px;
+  
+  margin-top: 2px;
+  margin-right: 8px;
     }
 
     .numero:after {
         height: 6px;
         border-radius: 3px;
+        content: "";
+
+  position: absolute;
+  background-color: #5e42b0;
+
+  width: 38px;
+  height: 4px;
+
+  top: 36px;
+  left: 0px;
+ 
+  border-radius: 2px;
     }
 
     .numero div {
@@ -980,12 +1044,13 @@ h3 {
     }
 
     .why_d_text h3 {
-        font-size: 80px;
+        font-size: 90px;
         margin-bottom: 96px;
     }
 
     .why_d_text p {
         font-size: 24px;
+        padding-bottom: 10px;
     }
 
     .footer_container {
@@ -1010,7 +1075,6 @@ h3 {
     }
 
     .footer_slogan p {
-        width: 706px;
         font-size: 30px;
         margin-top: 12px;
         margin-bottom: 0;
