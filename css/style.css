@@ -993,6 +993,7 @@ h3 {
     }
 
     .footer_container {
+        max-width: 706px;
         padding-top: 230px;
         padding-bottom: 52px;
         background-image: url("../images/game_1920.jpg");
@@ -1006,7 +1007,7 @@ h3 {
     }
 
     .footer_slogan h2{
-        width: 706px;
+        max-width: 706px;
         margin: 0;
         text-align: left;
         letter-spacing: 0.04em;
@@ -1014,6 +1015,7 @@ h3 {
     }
 
     .footer_slogan p {
+        max-width: 706px;
         font-size: 30px;
         margin-top: 12px;
         margin-bottom: 0;
