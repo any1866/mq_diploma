@@ -357,7 +357,7 @@ h3 {
     .text_container {
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 20px
     }
 
     .title_block {
@@ -508,9 +508,6 @@ h3 {
     }
 
 }
-
-
-
 
 
 
@@ -994,7 +991,7 @@ h3 {
     }
 
     .footer_container {
-        max-width: 706px;
+      
         padding-top: 230px;
         padding-bottom: 52px;
         background-image: url("../images/game_1920.jpg");
