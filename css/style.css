@@ -379,6 +379,7 @@ h3 {
     .numero {
         padding-top: 2px;
         height: 2em;
+         font-size: 14px;
     }
 
     .numero:after {
@@ -386,9 +387,6 @@ h3 {
         border-radius: 2px;
     }
 
-    .numero div {
-        font-size: 14px;
-    }
 
     .players {
         padding-top: 18px;
